@@ -1,0 +1,67 @@
+▪ Anaconda Prompt에서 아래 명령문을 입력 → 파이썬 패키지의 설치
+
+pip install pyautogui==0.9.54
+pip install git+https://github.com/ssbaj/py412.git  #github의 개인 패키지
+pip install git+https://github.com/ssbaj/pypuzzle.git  #github의 개인 패키지
+pip install simplejson
+pip install matplotlib
+pip install numpy==1.26.4
+pip install seaborn
+pip install pandas
+pip install requests
+pip install beautifulsoup4
+pip install selenium
+pip install statsmodels
+pip install sklearn
+pip install pyproj
+pip install scikit-learn
+pip install pyLDAvis
+pip install networkx
+pip install kiwipiepy
+pip install nltk spacy soynlp clean-text gensim wordcloud pyldavis
+
+########################################
+
+http://spacen.or.kr/techday/Qplugin.xml
+
+########################################
+
+{
+  "editor.fontSize": 18,
+  // 1. 함수 매개변수 도움말 팝업 끄기 (예: func_name( 입력 시 나오는 안내창)
+  "editor.parameterHints.enabled": false,
+
+  // 2. 마우스 커서/타이핑 시 나타나는 도움말(Hover) 팝업 끄기
+  "editor.hover.enabled": "off",
+
+  // 3. 글자 입력 시 자동으로 뜨는 자동 완성 추천 팝업 끄기 (선택 사항)
+  "editor.quickSuggestions": {
+    "other": "off",
+    "comments": "off",
+    "strings": "off"
+  },
+  "files.associations": {
+    "**/.posit/ai/providers.json": "jsonc",
+    "**/.posit/ai/auth/data.json": "jsonc",
+    "**/.posit/assistant/settings.json": "jsonc",
+    "renv.lock": "json"
+  }
+
+// 4. 타이핑 시 자동 완성 제안(관련 명령문 팝업) 끄기
+  "editor.quickSuggestions": {
+    "other": "off",
+    "comments": "off",
+    "strings": "off"
+  },
+  // 5. 마침표(.)나 특수문자 입력 시 관련 명령문 팝업 끄기
+  "editor.suggestOnTriggerCharacters": false,
+
+  // 6. 기존 코드 단어 기반 제안 팝업 끄기
+  "editor.wordBasedSuggestions": "off"
+
+  // 7. 편집기에서 커서가 있는 위치의 Line색 제거
+  "editor.renderLineHighlight": "none"
+}
+
+
+
