@@ -1,5 +1,7 @@
-▪ Anaconda Prompt에서 아래 명령문을 입력 → 파이썬 패키지의 설치
+▪ R에서 작업하기
+devtools::install_github('ssbaj/aj412s', force=T)
 
+▪ Anaconda Prompt에서 아래 명령문을 입력 → 파이썬 패키지의 설치
 pip install pyautogui==0.9.54
 pip install git+https://github.com/ssbaj/py412.git  #github의 개인 패키지
 pip install git+https://github.com/ssbaj/pypuzzle.git  #github의 개인 패키지
