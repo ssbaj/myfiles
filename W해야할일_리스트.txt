@@ -20,6 +20,9 @@ pip install networkx
 pip install kiwipiepy
 pip install pynput
 pip install nltk spacy soynlp clean-text gensim wordcloud pyldavis
+cd Downloads
+pip install py412-master.zip
+pip install pypuzzle-master.zip
 
 ########################################
 
