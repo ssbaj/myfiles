@@ -1,3 +1,8 @@
+▪ Qgis 다운로드
+https://qgis.org/downloads-list/
+
+QGIS-OSGeo4W-3.40.10-1.msi
+
 ▪ R에서 작업하기
 devtools::install_github('ssbaj/aj412s', force=T)
 
@@ -18,9 +23,9 @@ pip install scikit-learn
 pip install pyLDAvis
 pip install networkx
 pip install kiwipiepy
-pip install pynput
 pip install nltk spacy soynlp clean-text gensim wordcloud pyldavis
 cd Downloads
+pip install pynput
 pip install py412-master.zip
 pip install pypuzzle-master.zip
 
